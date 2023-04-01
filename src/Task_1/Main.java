@@ -45,7 +45,9 @@ public class Main {
             String phon = scanner();
             if (phon.equals("!")) {
                 break;
-            } else {
+            } 
+            
+            else {
                 number.add(phon);
             }
         }
